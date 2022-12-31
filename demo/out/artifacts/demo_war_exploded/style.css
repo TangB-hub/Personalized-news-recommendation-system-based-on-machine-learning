@@ -1,0 +1,83 @@
+.no-navbar {
+    background-image: url(img/lake_sky.jpg);
+}
+
+div#foreground {
+    background-image: url(img/蓝色碎片飞舞.gif);
+    z-index: -2;
+}
+
+.wall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.main_card{
+    height: 100vh;
+    width: 70%;
+    border-bottom: 2px solid #ccc;
+    /* display: block; */
+    /* opacity:0.5; */
+    background-color: rgba(0,0,0,0.1);
+    border-radius:2em;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+}
+
+.info_card{
+    padding: 15px;
+
+}
+.header-container{
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    line-height:60px;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    background-color: rgba(0,0,0,0.15);
+
+}
+li{
+    float: left;
+    display: inline;
+    transform: translateY(-25px);
+}
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: aquamarine;
+    margin: 10px;
+    /*border-right: #e9e9e9 2px dashed;*/
+}
+
+/* 当鼠标悬停时把链接颜色更改为 #111（黑色） */
+li a:hover {
+    background-color: deepskyblue;
+    margin-bottom: 10px;
+}
+.icon1{
+    background: url(img/关于我们.png) no-repeat 0px 30px;
+    background-size: 20px 20px;
+    padding-left: 10px;
+}
+.icon2{
+    background: url(img/客服.png) no-repeat 0px 30px;
+    background-size: 20px 20px;
+    padding-left: 10px;
+}
+.icon4{
+    background: url(img/开关.png) no-repeat 0px 30px;
+    background-size: 20px 20px;
+    padding-left: 10px;
+}
+.icon3{
+    background: url(img/退出.png) no-repeat 0px 30px;
+    background-size: 20px 20px;
+    padding-left: 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<a href="https://www.baidu.com/" onclick="clickfunction(href)">baidu</a>
+
+<script>
+  function clickfunction(webpos){
+    window.location="ClickServlet?webpos="+webpos;
+  }
+</script>
+
+<input  id="refresh" type="button" value="个性化推荐" onclick="buttonClick();">
+
+<script>
+  function buttonClick(){
+    alert("你以开启个性化推荐");
+    window.location="ClickServlet?PersonalRefresh='1'";
+  }
+</script>
+</body>
+</html>
